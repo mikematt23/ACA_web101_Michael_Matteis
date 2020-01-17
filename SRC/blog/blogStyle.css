@@ -1,0 +1,27 @@
+.mainContainer{
+    border: 5px solid red;
+    height: 100%;
+    
+}
+nav{
+    background-color: burlywood;
+    text-align: right;
+}
+header{
+    background-color: blue;
+    height: 50px;
+}
+h1{
+    text-align: justify;
+}
+.border{
+    border: 2px solid black;
+    background-color: burlywood;
+}
+#border{
+    border:2px solid black;
+    background-color: yellow;
+}
+.post{
+    text-align:center;
+}
