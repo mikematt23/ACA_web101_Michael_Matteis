@@ -23,10 +23,17 @@ header{
     background-color: yellow;
 }
 section{
-    margin-left: 40%;
+    align-items: center;
+    margin-left: 15%;
+    height:75%;
+    width: 70%;
 }
 .scroll{
     overflow:scroll;
+    }
+ul{
+    margin-bottom:200px;
+    text-align: center;
 }
 
 
