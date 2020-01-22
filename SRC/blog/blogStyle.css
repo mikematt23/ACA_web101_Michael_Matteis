@@ -5,6 +5,9 @@
     
     
 }
+*{
+    box-sizing: border-box;
+}
 nav{
     background-color: burlywood;
     text-align: right; 
