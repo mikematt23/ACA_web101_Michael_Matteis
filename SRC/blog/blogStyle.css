@@ -2,8 +2,10 @@
     /* border: 5px solid red; */
     height: 100%;
     background-color: whitesmoke;
-    
-    
+ 
+}
+*{
+    box-sizing: unset;
 }
 nav{
     background-color: burlywood;
