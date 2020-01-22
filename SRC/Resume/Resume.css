@@ -1,0 +1,25 @@
+header{
+    background-color: brown;
+    height: 200%;
+    margin-bottom: 0%;
+}
+nav{
+    background-color: burlywood;
+    margin-top: 0%;
+    height: 20%;
+    margin-top: 0%;
+}
+ main{
+     background-color: burlywood;
+ }
+ section{
+     border: 2px solid black;
+     height: 50%;
+     width: 50%;
+     margin-bottom: 5%;
+ }
+ h6{
+     font-size: 200%;
+ }
+
+
