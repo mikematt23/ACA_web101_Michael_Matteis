@@ -5,7 +5,8 @@
  
 }
 *{
-    box-sizing: unset;
+    box-sizing: border-box;
+    
 }
 nav{
     background-color: burlywood;
