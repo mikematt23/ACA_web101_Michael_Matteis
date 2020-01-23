@@ -1,5 +1,10 @@
 body{
     background-color: burlywood;
+    
+}
+.mainContainer{
+    max-width: 960;
+    margin-left: 15%;
 }
 
 header{
@@ -54,5 +59,20 @@ section{
     margin-top: 5%;
     float: left;
     overflow: scroll;
+}
+@media(max-width:960){
+  .left{
+      
+      float:none;
+      align-self: center;
+      margin-left: 20px;
+  } 
+}
+@media(max-width:960){
+    .right{
+        float: none;
+        align-self: center;
+        margin-left: 20px;
+    }
 }
 
