@@ -38,7 +38,13 @@ section{
     width: 30%;
     background-color: brown;
     border: 3px solid black;
-       
+           
+}
+footer{
+    height: 20%;
+    margin-top: 100%;
+    text-align: center;
+    background-color: brown;
 }
 .profilePic{
     border: 2px solid black;
@@ -60,19 +66,33 @@ section{
     float: left;
     overflow: scroll;
 }
-@media(max-width:960){
+@media(max-width:960px){
   .left{
       
       float:none;
       align-self: center;
-      margin-left: 20px;
+      margin-left: 100px;
   } 
 }
-@media(max-width:960){
+@media(max-width:960px){
     .right{
         float: none;
         align-self: center;
-        margin-left: 20px;
+        margin-left: 100px;
+    }
+}
+@media(max-width:960px){
+    section{
+        height: auto;
+        width: auto;
+        align-self: center;
+    }
+ 
+}
+@media(max-width:960px){
+    .profilePic{
+        height: auto;
+        width: auto;
     }
 }
 
