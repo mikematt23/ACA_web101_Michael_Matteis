@@ -1,25 +1,97 @@
+body{
+    background-color: burlywood;
+    
+}
+.mainContainer{
+    max-width: 960;
+    margin-left: 15%;
+}
+
 header{
     background-color: brown;
-    height: 200%;
+    text-align: center;
+    height: 20%;
     margin-bottom: 0%;
 }
-nav{
-    background-color: burlywood;
-    margin-top: 0%;
-    height: 20%;
+h1{
+    color: burlywood;
+    font-size: 500%;
     margin-top: 0%;
 }
- main{
-     background-color: burlywood;
- }
- section{
-     border: 2px solid black;
-     height: 50%;
-     width: 50%;
-     margin-bottom: 5%;
- }
- h6{
-     font-size: 200%;
- }
-
-
+h3{
+    color: burlywood;
+    font-size: 250%;
+    text-align: center;
+}
+a{
+    margin-left: 15%;
+    font-size: 200%;
+    
+}
+nav{
+    text-align: center;
+    margin-top:10px;
+    margin-right: 10%;
+}
+section{
+    height: 50%;
+    width: 30%;
+    background-color: brown;
+    border: 3px solid black;
+           
+}
+footer{
+    height: 20%;
+    margin-top: 100%;
+    text-align: center;
+    background-color: brown;
+}
+.profilePic{
+    border: 2px solid black;
+    height:50%;
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 35%;
+}
+.right{
+    margin-right: 13%;
+    margin-top: 15%;
+    float: right;
+    overflow: scroll;
+    
+}
+.left{
+    margin-left: 13%;
+    margin-top: 5%;
+    float: left;
+    overflow: scroll;
+}
+@media(max-width:960px){
+  .left{
+      
+      float:none;
+      align-self: center;
+      margin-left: 100px;
+  } 
+}
+@media(max-width:960px){
+    .right{
+        float: none;
+        align-self: center;
+        margin-left: 100px;
+    }
+}
+@media(max-width:960px){
+    section{
+        height: auto;
+        width: auto;
+        align-self: center;
+    }
+ 
+}
+@media(max-width:960px){
+    .profilePic{
+        height: auto;
+        width: auto;
+    }
+}
