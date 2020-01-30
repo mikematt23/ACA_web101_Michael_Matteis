@@ -1,0 +1,132 @@
+body{
+    width: 576px;;
+    background-color: rgba(84, 143, 182, 0.596);
+}
+header{
+    height: 92%;
+    width: 98%;
+    background-color: blue;
+    grid-area: header;
+  
+}
+main{
+    grid-area: main;
+}
+section{
+    height: 65%;
+    border: 2px solid black;
+    width: 87%;
+    margin-left: 5%;
+    margin-top: 21%;
+    background-color: rgba(46, 1, 119, 0.493);
+}
+p{
+    font-size: 125%;
+}
+.Right{
+    float:none
+}
+.Left{
+    float: none;
+}
+footer{
+    height: 80%;
+    width: 98%;
+    margin-top: 22%;
+    background-color: blue;
+    grid-area: footer;
+}
+.mainContainer{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+.profilePic{
+    height: 239%;
+    width: 95%;
+    margin-left: 1%;
+    margin-top: 5%;
+ 
+}
+.logo{
+    height: 90%;
+    width: 15%;
+
+}
+@media(min-width:768px){
+    .mainContainer{
+        grid-template-columns: 2fr 2fr;
+        grid-template-areas: 
+        "header header"
+        "main  main"
+        "footer footer";
+    }
+}
+@media(min-width:768px){
+    section{
+        height: 250px;
+        width: 350px;
+        margin-left: 6%;
+        font-size: 125%;
+        margin-left: 2%;
+    }
+}
+@media(min-width:768px){
+    header{
+        height: 76%;
+        width: 130%;
+    }
+}
+@media(min-width:768px){
+    .profilePic{
+        width: 119%;
+        margin-left: 6%;
+    }
+}
+@media(min-width:768px){
+    .Right{
+        margin-left: 68%;
+    }
+}
+@media(min-width:768px){
+    .Left{
+        float: left;
+    }
+}
+@media(min-width:768px){
+    footer{
+        height: 53%;
+        width: 130%;
+    }
+}
+@media(min-width:992px){
+    header{
+        width: 244%;
+        height: 40%;
+    }
+}
+@media(min-width:992px){
+    .profilePic{
+        width: 167%;
+        margin-left: 28%;
+    }
+}
+@media(min-width:992px){
+    section{
+        height: 806px;
+        width: 505px;
+        margin-left: 15%;
+    }
+}
+@media(min-width:992px){
+    .Right{
+        margin-left: 128%;
+    }
+}
+@media(min-width:992px){
+    P{
+        font-size: 265%;
+    }
+}
