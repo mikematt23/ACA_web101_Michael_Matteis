@@ -1,3 +1,39 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr; 
+    
+}
 section{
-    border: 3px solid red;
+    margin-top: 10%;
+    height: 80%;
+    width: 33%;
+}
+h1{
+    justify-self: center;
+    color: white;
+    font-size: 450%;
+}
+.pic{
+    grid-row: 1/2;
+   
+}
+.background{
+    height: 600px;
+    width: 650px;
+    background-image: url(https://cdn.spacetelescope.org/archives/images/wallpaper2/heic1509a.jpg);
+    background-size: cover;
+    margin-left: 20%;
+    margin-top: 0%;
+    
+}
+.content{
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(230,230,230);
+}
+.column{
+    display: flex;
+    flex-direction: column;
 }
