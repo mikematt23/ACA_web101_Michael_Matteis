@@ -12,7 +12,6 @@ section{
 h1{
     justify-self: center;
     color: white;
-    font-size: 450%;
 }
 .pic{
     grid-row: 1/2;
@@ -29,6 +28,7 @@ h1{
 }
 .content{
     grid-row: 2/3;
+    grid-column: 1/2;
     display: flex;
     flex-direction: row;
     background-color: rgb(230,230,230);
@@ -37,3 +37,12 @@ h1{
     display: flex;
     flex-direction: column;
 }
+section h1{
+    font-size: 200%;
+    margin-top: -9%;
+}
+.pic h1{
+ padding: 37%;
+ font-size: 450%;
+}
+
