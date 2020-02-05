@@ -45,4 +45,9 @@ section h1{
  padding: 37%;
  font-size: 450%;
 }
+@media(max-width:824px){
+    .background{
+        margin-left: 0%;
+    }
+}
 
