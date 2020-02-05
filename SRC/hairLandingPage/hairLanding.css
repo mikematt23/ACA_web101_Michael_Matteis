@@ -1,0 +1,21 @@
+body{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 5fr 3fr;
+}
+header{
+  grid-row: 1/2;
+  border: 1px solid blue;
+  height: 100%;
+}
+main{
+  grid-row: 2/3;
+  border: 1px solid red;
+  height: 100%;
+}
+footer{
+  grid-row: 3/4;
+  border: 1px solid green;
+  height: 100%;
+}
