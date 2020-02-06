@@ -1,11 +1,12 @@
 body{
     display: grid;
-    grid-template-columns: 40%, 1fr;
-    grid-template-rows: 1fr,1fr;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50vh 50vh;
+    background-color: grey;
 }
 section{
-    height: 200px;
-    width: 200px;
+    height: 100%;
+    width: 100%;
     border: 2px solid red;
 }
 .percent{
@@ -19,6 +20,18 @@ section{
 .weather{
     grid-row: 2/3;
     grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherPic{
+    width: 92%;
+    height: 70%;
+    padding-top: 20px;
+
+}
+h3{
+    color: honeydew;
 }
 td{
     background-color: black;
@@ -30,4 +43,25 @@ th{
 table{
     height: 100%;
     width: 100%;
+    padding: 20px;
+}
+.graphPic1{
+    width: 104%;
+    padding-top: 100px;
+}
+.graphPic2{
+    width: 75%;
+    padding-top: 55px;
+    padding-left: 60px;
+}
+.graph{
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+}
+.graph div{
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 20px;
 }
