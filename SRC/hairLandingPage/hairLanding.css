@@ -2,7 +2,7 @@ body{
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 5fr 3fr;
+  grid-template-rows: 1fr 5fr 1fr;
 }
 header{
   grid-row: 1/2;
@@ -16,6 +16,46 @@ main{
 }
 footer{
   grid-row: 3/4;
-  border: 1px solid green;
+  border: 1px solid black;
   height: 100%;
+}
+section{
+  width: 90%;
+  height: 50%;
+  border: 1px solid purple;
+}
+button{
+  width: 15%;
+  height: 10%;
+}
+p{
+  width: 30%;
+}
+.navagation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainContent{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.article{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZMpGPVfUbqdr3leA6j8vZdyiAfynpKMDQOUyltKKlmJlkhrSH);
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.hairStyle{
+  display: flex;
+  flex: row;
+}
+.hairStyle div{
+  border: 1px solid green;
+  height: 33%;
+  width: 33%;
 }
