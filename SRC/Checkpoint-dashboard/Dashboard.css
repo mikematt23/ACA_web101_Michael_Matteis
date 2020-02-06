@@ -9,7 +9,7 @@ section{
     width: 100%;
     border: 2px solid red;
 }
-.percent{
+.calculator{
     grid-row: 1/2;
     grid-column: 1/2;
 }
