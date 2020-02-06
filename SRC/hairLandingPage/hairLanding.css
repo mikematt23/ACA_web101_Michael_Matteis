@@ -2,22 +2,32 @@ body{
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-rows: 2fr 5fr 1fr;
 }
 header{
   grid-row: 1/2;
   border: 1px solid blue;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 main{
   grid-row: 2/3;
+  padding: 20px;
   border: 1px solid red;
   height: 100%;
+  background-color: lightblue;
 }
 footer{
+  margin-top: 30px;
   grid-row: 3/4;
   border: 1px solid black;
   height: 100%;
+  width: 100%;
+  background-color: darkgrey;
+  
 }
 section{
   width: 90%;
@@ -35,6 +45,7 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 .mainContent{
   height: 100%;
@@ -43,19 +54,53 @@ p{
   align-items: center;
 }
 .article{
+  height: 73%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQZMpGPVfUbqdr3leA6j8vZdyiAfynpKMDQOUyltKKlmJlkhrSH);
+  background-image: url(https://freewebsitetemplates.com/preview/mustacheenthusiast/images/mustache5.jpg);
   background-size:contain;
   background-repeat: no-repeat;
 }
 .hairStyle{
+  height: 30%;
+  padding-top: 20px;
   display: flex;
   flex: row;
+  justify-content: space-evenly;
 }
 .hairStyle div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   border: 1px solid green;
-  height: 33%;
-  width: 33%;
+  height: 90%;
+  width: 30%;
+}
+
+.hairStyle div img{
+  height:128px
+}
+@media(max-width:879px){
+  .hairStyle div img{
+    height: 93px;
+  }
+}
+@media(max-width:500px){
+  .hairStyle{
+    flex-direction: column;
+    align-items: center;
+ 
+}
+@media(max-width:500px){
+      .hairStyle div{
+        width: 90%;
+      }
+}
+@media(max-width:500px){
+     .hairStyle div img{
+       height: 66px;
+     }
+  
 }
