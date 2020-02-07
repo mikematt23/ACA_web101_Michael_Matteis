@@ -6,7 +6,6 @@ body{
 }
 header{
   grid-row: 1/2;
-  border: 1px solid blue;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -16,14 +15,12 @@ header{
 main{
   grid-row: 2/3;
   padding: 20px;
-  border: 1px solid red;
   height: 100%;
   background-color: lightblue;
 }
 footer{
   margin-top: 30px;
   grid-row: 3/4;
-  border: 1px solid black;
   height: 100%;
   width: 100%;
   background-color: darkgrey;
@@ -32,7 +29,6 @@ footer{
 section{
   width: 90%;
   height: 50%;
-  border: 1px solid purple;
 }
 button{
   width: 15%;
@@ -40,6 +36,7 @@ button{
 }
 p{
   width: 30%;
+  color: goldenrod;
 }
 .navagation{
   display: flex;
@@ -52,7 +49,10 @@ p{
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  background-size: cover;
 }
+
 .article{
   height: 73%;
   display: flex;
@@ -73,14 +73,14 @@ p{
   display: flex;
   flex-direction: row;
   align-items: center;
+  border: solid black 1px;
   justify-content: space-around;
-  border: 1px solid green;
   height: 90%;
   width: 30%;
 }
 
 .hairStyle div img{
-  height:128px
+  height:108px
 }
 @media(max-width:879px){
   .hairStyle div img{
@@ -102,5 +102,16 @@ p{
      .hairStyle div img{
        height: 66px;
      }
-  
+}
+@media(max-width: 500px){
+  .article{
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media(max-width:500px){
+  h1{
+    font-size: 114%;
+    color:goldenrod
+  }
 }
