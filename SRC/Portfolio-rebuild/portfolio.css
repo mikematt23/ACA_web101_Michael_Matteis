@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+.mainContainer{
+  height: 100vh;
+  width: 100%;
+  border: 1px solid blue;
+  /* background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.ca%2Fpin%2F181129216234773932%2F&psig=AOvVaw2JN-y8ZM0cUWhS_SDIB7TT&ust=1581646622734000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICFz7G7zecCFQAAAAAdAAAAABAK); */
+}
+header{
+  height: 5%;
+  /* border: 1px solid red; */
+  background-color:black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main{
+  height: 90%;
+  /* border: 1px solid green; */
+  background-image: url(https://www.sbclocal.com/wp-content/uploads/2017/10/city-night-skyline-1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+footer{
+  height: 5%;
+  background-color: black;
+}
+h1{
+  color: ghostwhite;
+  padding: 30px;
+}
+button{
+  background-color: rgba(248, 248, 255, 0.74);
+  width: 389px;
+  height: 30px;
+  border-radius: 20px;
+  
+}
+a{
+  color: ghostwhite;
+}
+
+.dropDown{
+display: flex;
+flex-direction: column;
+display: inline-block;
+}
+
+.dropDownContent{
+  display: none;
+  background-color: rgba(248, 248, 255, 0.473);
+  border-radius: 10px;
+}
+
+.dropDown:hover .dropDownContent{
+  display:block;
+} 
+.dropDownContent a{
+  color: black;
+  display: block;
+  padding: 10px;
+}
+iframe{
+  padding: 15px;
+  width: 50%;
+}
+@media(max-width:500px){
+  button{
+    width: 300px;
+  }
+}
