@@ -1,4 +1,10 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+}
 .mainContainer{
+    height: 100%;
     background-image: url(https://cdn.cjr.org/wp-content/uploads/2019/07/AdobeStock_100000042-e1563305717660-686x371.jpeg);
      display: grid;
     grid-template-columns: 33% 33% 33%; 
