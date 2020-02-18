@@ -1,0 +1,18 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+}
+@media(max-width:500px){
+  .logo{
+    height: 120px;
+  }
+
+}
+@media(max-width:500px){
+  p{
+    color: indigo;
+  }
+}
