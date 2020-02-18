@@ -1,0 +1,111 @@
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50vh 50vh;
+    background-color: grey;
+}
+section{
+    height: 100%;
+    width: 100%;
+    border: 1px double honeydew;
+}
+.hello{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+ color: honeydew;
+}
+.bar-graph{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.weather{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.weatherPic{
+    width: 92%;
+    height: 70%;
+    padding-top: 20px;
+
+}
+h3{
+    color: honeydew;
+}
+td{
+    background-color: black;
+    height: 20%;
+}
+th{
+    width: 20%;
+}
+table{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+.graphPic1{
+    width: 104%;
+    padding-top: 100px;
+}
+.graphPic2{
+    width: 75%;
+    padding-top: 55px;
+    padding-left: 60px;
+}
+.graph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.graph div{
+    height: 100%;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+@media(max-width:770px){
+    .graph{
+       flex-direction: column;
+    }
+    .graphPic1{
+        height: 50%;
+        width: 163%;
+    }
+    .graphPic2{
+        height: 50%;
+        width: 116%;
+    }
+}
+@media(max-width:414px){
+    body{
+      display: grid;
+      grid-template-columns: 100vh;
+      grid-template-rows: 25% 25% 25% 25%;
+    }
+    .table{
+        grid-row: 2/3;
+    }
+    .bar-graph{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .graph{
+        grid-row: 4/5;
+        flex-direction: row;
+    }
+    .graphPic1{
+        width: 50%;
+    }
+    .graphPic2{
+        width: 50%;
+    }
+}
