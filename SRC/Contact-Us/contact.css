@@ -1,19 +1,25 @@
 body{
-    background-color: blue;
+    background-color:honeydew;
     animation-name: rainbow;
-    animation-duration: 5s;
+    /* animation-duration: 5s;
     animation-iteration-count: infinite;
     display: flex;
-    justify-content: center;
+    justify-content: center; */
    
 }
 section{
   height: 80%;
   width: 60%;
   background-color: honeydew;
+  margin-left: 20%;
   font-display: flex;
   justify-self: center;
   margin-top: 10%;
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  display: flex;
+  justify-content: center;
 }
 form{
   padding: 20px;
