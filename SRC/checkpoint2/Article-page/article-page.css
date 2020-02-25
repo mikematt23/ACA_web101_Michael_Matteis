@@ -12,19 +12,20 @@ header{
   justify-content: flex-end;
 }
 a{
-  margin-left: 12px;
+  margin-left: 11px;
   font-size: x-large;
   padding: 10px;
   color: ghostwhite;
 }
 .holder{
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 section{
-  margin-top: 10%;
-  height: 400px;
+  margin-top: 5%;
+  height: 450px;
   margin-left: 10px;
   width: 28%;
   background-color: red;
@@ -33,16 +34,36 @@ section{
   align-items: center;
 }
 img{
-  width:100%;
- 
+   width:100%;
+   
+ }
+
+p{
+
+  opacity: 0;
+  transition: 3s;
+  font-size: 15px;
+  color: ghostwhite;
 }
 h3{
-  color: ghostwhite;
-  font-size: 150%;
+  color:ghostwhite;
+  font-size: 125%;
+  display: inline-block;
+  transition: ease .5s;
 }
-.root:hover{
-    animation-name: scaleY;
+.move-up{
+  transform: translateY();
+  transition: ease 1s;
 }
-@keyframes scaleY{
-  30%{margin-bottom: 200px;}
+section:hover img.move-up{
+ transform: translateY(75px);
+}
+section:hover p{
+
+ display: block;
+ opacity: 1;
+
+}
+.roots:hover h3{
+     display: none;
 }
