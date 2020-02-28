@@ -25,3 +25,10 @@ return 'x'
 }
 }
 
+function onePiece(){
+  if(previousPlay === null){
+  return setGamePiece
+} else{
+  return null
+}
+}
